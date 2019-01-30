@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="458.0" prefWidth="563.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TableMapController">
+   <children>
+      <Pane fx:id="allTablesPane" layoutX="14.0" layoutY="14.0" prefHeight="365.0" prefWidth="523.0">
+         <children>
+            <Group layoutY="1.0" onMouseMoved="#saveGroup">
+               <children>
+                  <Rectangle fx:id="seat_14" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="92.0" layoutY="140.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle id="table" fx:id="table_1" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="76.0" layoutX="92.0" layoutY="58.0" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+                  <Rectangle fx:id="seat_15" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="141.0" layoutY="140.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_13" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="56.0" layoutY="83.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_11" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="92.0" layoutY="24.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_12" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="141.0" layoutY="24.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Label layoutX="107.0" layoutY="86.0" text="Table 1" />
+               </children>
+            </Group>
+            <Group layoutX="147.0" layoutY="1.0" onMouseMoved="#saveGroup">
+               <children>
+                  <Rectangle fx:id="seat_24" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="92.0" layoutY="140.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle id="table" fx:id="table_2" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="76.0" layoutX="92.0" layoutY="58.0" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+                  <Rectangle fx:id="seat_25" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="141.0" layoutY="140.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_23" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="56.0" layoutY="83.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_21" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="92.0" layoutY="24.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_22" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="141.0" layoutY="24.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Label layoutX="107.0" layoutY="86.0" text="Table 2" />
+               </children>
+            </Group>
+            <Group layoutX="306.0" layoutY="1.0" onMouseMoved="#saveGroup">
+               <children>
+                  <Rectangle fx:id="seat_34" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="92.0" layoutY="140.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle id="table" fx:id="table_3" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="76.0" layoutX="92.0" layoutY="58.0" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+                  <Rectangle fx:id="seat_35" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="141.0" layoutY="140.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_33" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="56.0" layoutY="83.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_31" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="92.0" layoutY="24.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_32" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="141.0" layoutY="24.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Label layoutX="107.0" layoutY="84.0" text="Table 3" />
+               </children>
+            </Group>
+            <Group layoutY="183.0" onMouseMoved="#saveGroup">
+               <children>
+                  <Rectangle fx:id="seat_44" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="92.0" layoutY="140.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="table_4" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="76.0" layoutX="92.0" layoutY="58.0" stroke="BLACK" strokeType="INSIDE" width="78.0" />
+                  <Rectangle fx:id="seat_45" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="141.0" layoutY="140.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_43" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="56.0" layoutY="83.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_41" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="92.0" layoutY="24.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_42" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="141.0" layoutY="24.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Label layoutX="107.0" layoutY="86.0" text="Table 4" />
+               </children>
+            </Group>
+            <Group layoutX="153.0" layoutY="175.0" onMouseMoved="#saveGroup">
+               <children>
+                  <Rectangle fx:id="seat_56" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="92.0" layoutY="140.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="table_5" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="76.0" layoutX="92.0" layoutY="58.0" stroke="BLACK" strokeType="INSIDE" width="231.0" />
+                  <Rectangle fx:id="seat_57" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="141.0" layoutY="140.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_53" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="193.0" layoutY="25.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_51" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="92.0" layoutY="24.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_52" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="141.0" layoutY="24.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_58" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="193.0" layoutY="140.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_50" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="294.0" layoutY="141.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_54" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="242.0" layoutY="25.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_55" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="294.0" layoutY="26.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Rectangle fx:id="seat_59" arcHeight="5.0" arcWidth="5.0" fill="#80d980" height="27.0" layoutX="242.0" layoutY="141.0" onMouseClicked="#updateSeatStatus" stroke="BLACK" strokeType="INSIDE" width="29.0" />
+                  <Label layoutX="184.0" layoutY="86.0" text="Table 5" />
+               </children>
+            </Group>
+         </children>
+      </Pane>
+      <ProgressBar fx:id="restaurantCapacity" layoutX="14.0" layoutY="419.0" opacity="0.7" prefWidth="200.0" progress="0.0" />
+      <Label layoutX="14.0" layoutY="393.0" text="Restaurant's capacity" />
+      <Button fx:id="finishButton" layoutX="389.0" layoutY="404.0" mnemonicParsing="false" onAction="#finishSelection" text="Select tables" />
+   </children>
+</Pane>

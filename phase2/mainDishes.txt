@@ -1,0 +1,13 @@
+Name:Pepperoni|Description:Cheese, tomato sauce & pepperoni.|Price:8.99
+
+Name:Hawaiian|Description:Cheese, tomato sauce, ham & pineapple.|Price:9.25
+
+Name:Margherita|Description:Cheese, tomato sauce, tomato, and basil leaves.|Price:8.75
+
+Name:Veggie|Description:Cheese, tomato sauce, mushrooms, green peppers, red onions & tomatoes.|Price:9.5
+
+Name:Chicken|Description:Chicken, green peppers & red onions|Price:9.95
+
+Name:Cheese|Description:Pizza with cheese & tomato sauce.|Price:8.50
+
+THE END

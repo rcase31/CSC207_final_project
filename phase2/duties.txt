@@ -1,0 +1,56 @@
+Name : Parthkumar Parmar
+Responsible for : •	CookManager
+                  •	CookScreen
+                  •	Dish
+                  •	DishFactory
+                  •	DrinksManager
+                  •	FileManager
+                  •	LoginScreen
+                  •	MainDishManager
+                  •	ManagerManager
+                  •	Menu
+                  •	Restaurant
+                  •	ServerManager
+                  •	SideDishManager
+                  •	Worker
+                  •	WorkerFactory
+
+Name : Jedid Hoon Ahn
+Responsible for : •	ConfirmationScreen.fxml and ConfirmationScreenController
+                  •	FileManager: writeToText() method.
+                  •	Ingredient
+                  •	Inventory
+                  •	InventoryManager
+                  •	ManagerScreen.fxml and ManagerScreenController
+                  •	MenuItem
+                  •	MenuItemManager
+                  •	Order
+                  •	ReceiveIngredientScreen.fxml and ReceiveIngredientScreenController
+
+Name : Thomas Campbell
+Responsible for : •	Cook
+                  •	Manager
+                  •	MessageAlertBox
+                  •	Observable
+                  •	Observer
+                  •	OrderTracker
+                  •	Person
+                  •	Server
+                  •	ServerDeliverController
+                  •	ServerOrderController
+                  •	ServerReturnController
+                  •	ServerScreen
+                  • Logger
+
+Name : Rafaell Casella
+Responsible for : •	Bill
+                  •	Table
+                  •	TableManager
+                  •	TableMapScreen
+                  • TableMapController
+                  • CustomerObjectGUI
+                  • SeatGUI
+                  • TableGUI
+                  • Logger
+
+

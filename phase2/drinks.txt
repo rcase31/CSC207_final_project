@@ -1,0 +1,13 @@
+Name:Coke|Description: |Price:1.25
+
+Name:7UP|Description: |Price:1.25
+
+Name:Dr.Pepper|Description: |Price:1.25
+
+Name:Mountain Dew|Description: |Price:1.25
+
+Name:Orange Juice|Description: |Price:1.25
+
+Name:Water|Description: |Price:1.25
+
+THE END

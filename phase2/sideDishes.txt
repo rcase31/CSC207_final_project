@@ -1,0 +1,9 @@
+Name:Caesar Salad|Description:A delicious salad with bacon bits and creamy Caesar dressing.|Price:3.60
+
+Name:Garlic Bread|Description:Four pieces of thick toasty garlic bread with melted cheese.|Price:3.75
+
+Name:Potato Wedges|Description:One pound of delicious, crispy potato wedges.|Price:3.95
+
+Name:Bread Sticks|Description:Six crispy breadsticks served with marinara dipping sauce.|Price:4.00
+
+THE END

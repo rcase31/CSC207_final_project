@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="919.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ServerScreenController">
+   <left>
+      <VBox prefHeight="671.0" prefWidth="219.0" spacing="5.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="41.0" prefWidth="209.0" text="Orders Ready To Deliver" textAlignment="CENTER" />
+            <TableView id="deliverTable" fx:id="deliverTable" prefHeight="364.0" prefWidth="209.0">
+               <columns>
+                  <TableColumn id="Location" fx:id="tableColumn" prefWidth="75.0" text="Table" />
+                  <TableColumn id="Details" fx:id="detailsColumn" prefWidth="143.0" text="Details" />
+               </columns>
+            </TableView>
+            <HBox id="deliverActions" prefHeight="48.0" prefWidth="189.0" spacing="15.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#deliveredButtonClicked" text="Delivered" />
+                  <Button mnemonicParsing="false" text="Returned" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="5.0" left="10.0" right="10.0" />
+               </VBox.margin>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+      </VBox>
+   </left>
+   <center>
+      <VBox prefHeight="458.0" prefWidth="432.0" spacing="5.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox id="orderRecipientInfo" prefHeight="34.0" prefWidth="500.0" spacing="5.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#getTableFromMap" text="Get Table From Map" />
+                  <Label prefHeight="32.0" prefWidth="168.0" text="Currently Selected Table: " />
+                  <Label fx:id="currentlySelectedTable" prefHeight="35.0" prefWidth="37.0" text="None" />
+               </children>
+            </HBox>
+            <TreeView id="menu" fx:id="menu" prefHeight="238.0" prefWidth="432.0" showRoot="false" />
+            <HBox id="changesBox" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox prefHeight="100.0" prefWidth="227.0">
+                     <children>
+                        <Label text="Additions" />
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <ComboBox fx:id="ingredientsThatCanAdd" prefWidth="150.0" promptText="Addition" />
+                              <Button mnemonicParsing="false" onAction="#addIngredientToAdditions" text="Add" />
+                           </children>
+                        </HBox>
+                        <ListView id="additionsList" fx:id="additions" prefHeight="145.0" prefWidth="225.0" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="100.0" prefWidth="210.0">
+                     <children>
+                        <Label text="Subtractions" />
+                        <HBox prefHeight="134.0" prefWidth="172.0">
+                           <children>
+                              <ComboBox fx:id="ingredientsThatCanSubtract" prefWidth="150.0" promptText="Subtractions" />
+                              <Button mnemonicParsing="false" onAction="#addIngredientToSubtractions" text="Add" />
+                           </children>
+                        </HBox>
+                        <ListView id="subtractionsList" fx:id="subtractions" prefHeight="206.0" prefWidth="208.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+            <Button mnemonicParsing="false" onAction="#submitOrder" prefHeight="31.0" prefWidth="440.0" text="Submit" />
+         </children>
+      </VBox>
+   </center>
+   <right>
+      <VBox prefHeight="439.0" prefWidth="268.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" prefHeight="21.0" prefWidth="304.0" text="Tables Serving">
+               <padding>
+                  <Insets bottom="5.0" top="5.0" />
+               </padding></Label>
+            <ListView id="tablesServing" fx:id="tablesServing" prefHeight="416.0" prefWidth="268.0" />
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="5.0">
+               <children>
+                  <ComboBox id="selctTableServingComboBox" fx:id="tables" prefHeight="31.0" prefWidth="110.0" promptText="Select Table" />
+                  <Button mnemonicParsing="false" onAction="#addTable" text="Add" />
+                  <Button mnemonicParsing="false" onAction="#removeTable" text="Remove" />
+               </children>
+               <padding>
+                  <Insets left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="100.0" prefWidth="200.0" spacing="20.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#printTableBill" text="Print Table Bill" />
+                  <Button mnemonicParsing="false" onAction="#printIndivBill" text="Print Indiv Bills" />
+               </children>
+               <padding>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </padding>
+            </HBox>
+         </children>
+         <padding>
+            <Insets left="5.0" right="5.0" />
+         </padding>
+      </VBox>
+   </right>
+   <top>
+      <HBox alignment="TOP_RIGHT" prefHeight="27.0" prefWidth="919.0" spacing="15.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="serverName" lineSpacing="10.0" prefHeight="31.0" prefWidth="169.0" text="Label" />
+            <Button mnemonicParsing="false" text="Log Out" />
+         </children>
+         <padding>
+            <Insets bottom="5.0" top="5.0" />
+         </padding>
+      </HBox>
+   </top>
+   <bottom>
+      <Label fx:id="warningLabel" prefHeight="33.0" prefWidth="944.0" textFill="RED" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

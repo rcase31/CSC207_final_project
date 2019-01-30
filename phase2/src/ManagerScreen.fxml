@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" maxHeight="-Infinity"
+            maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0"
+            prefWidth="600.0" text="MANAGER DISPLAY" textAlignment="CENTER"
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ManagerScreenController">
+    <VBox>
+        <HBox spacing="20" alignment="TOP_RIGHT"><padding><Insets bottom="10"/></padding>
+            <HBox HBox.hgrow="ALWAYS"><padding><Insets right="225"/></padding>
+                <Button text="Receive Ingredient" onAction="#openReceiveIngredientScreen"/>
+            </HBox>
+            <Label text="Name:" />
+            <Label fx:id="managerName"/>
+            <HBox><padding><Insets left="25"/></padding>
+                <Button text="Log Out" onAction="#logOut"/>
+            </HBox>
+        </HBox>
+
+        <TabPane tabClosingPolicy="UNAVAILABLE">
+            <Tab text="    Check Inventory    " onSelectionChanged="#refreshCheckInventoryTable">
+                <VBox>
+                    <HBox spacing="10"><padding><Insets top="20"/></padding>
+                        <Label text="Name of Ingredient:" />
+                        <TextField fx:id="inputField" prefWidth="200"/>
+                        <Button text="Submit" onAction="#validateIngredientName"/>
+                        <Pane HBox.hgrow="ALWAYS" />
+                        <Button text="Clear Table" onAction="#clearTableView"/>
+                    </HBox>
+
+                    <HBox><padding><Insets bottom="20"/></padding>
+                        <Label fx:id="validationMsg" />
+                    </HBox>
+
+                    <TableView fx:id="checkInventoryTable" >
+                        <columnResizePolicy>
+                            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                        </columnResizePolicy>
+                        <columns>
+                            <TableColumn fx:id="specificIngredientCol" text="Name of Ingredient"/>
+                            <TableColumn fx:id="specificQuantityCol" text="Quantity Remaining"/>
+                        </columns>
+                    </TableView>
+                </VBox>
+            </Tab>
+
+            <Tab text="    Print Inventory    " onSelectionChanged="#refreshPrintInventoryTable">
+                <VBox><padding><Insets top="20" bottom="20"/></padding>
+                    <TableView fx:id="printInventoryTable">
+                        <columnResizePolicy>
+                            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                        </columnResizePolicy>
+                        <columns>
+                            <TableColumn fx:id="ingredientNameCol" text="Name of Ingredient"/>
+                            <TableColumn fx:id="quantityCol" text="Quantity Remaining" />
+                        </columns>
+                    </TableView>
+                </VBox>
+            </Tab>
+            <Tab text="    Active Orders   " onSelectionChanged="#refreshActiveOrdersTable">
+                <VBox><padding><Insets top="20" bottom="20"/></padding>
+                    <TableView fx:id="activeOrdersTable">
+                        <columnResizePolicy>
+                            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                        </columnResizePolicy>
+                        <columns>
+                            <TableColumn fx:id="tableNumCol" text="Table #"/>
+                            <TableColumn fx:id="orderDetailsCol" text="Order Details"/>
+                        </columns>
+                    </TableView>
+                </VBox>
+            </Tab>
+        </TabPane>
+    </VBox>
+</TitledPane>

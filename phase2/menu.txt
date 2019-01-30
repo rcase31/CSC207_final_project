@@ -1,0 +1,33 @@
+Category:M|Name:Pepperoni|Description:Cheese, tomato sauce & pepperoni.|Price:8.99
+
+Category:M|Name:Hawaiian|Description:Cheese, tomato sauce, ham & pineapple.|Price:9.25
+
+Category:M|Name:Margherita|Description:Cheese, tomato sauce, tomato, and basil leaves.|Price:8.75
+
+Category:M|Name:Veggie|Description:Cheese, tomato sauce, mushrooms, green peppers, red onions & tomatoes.|Price:9.5
+
+Category:M|Name:Chicken|Description:Chicken, green peppers & red onions|Price:9.95
+
+Category:M|Name:Cheese|Description:Pizza with cheese & tomato sauce.|Price:8.50
+
+Category:S|Name:Caesar Salad|Description:A delicious salad with bacon bits and creamy Caesar dressing.|Price:3.60
+
+Category:S|Name:Garlic Bread|Description:Four pieces of thick toasty garlic bread with melted cheese.|Price:3.75
+
+Category:S|Name:Potato Wedges|Description:One pound of delicious, crispy potato wedges.|Price:3.95
+
+Category:S|Name:Bread Sticks|Description:Six crispy breadsticks served with marinara dipping sauce.|Price:4.00
+
+Category:D|Name:Coke|Description: |Price:1.25
+
+Category:D|Name:7UP|Description: |Price:1.25
+
+Category:D|Name:Dr.Pepper|Description: |Price:1.25
+
+Category:D|Name:Mountain Dew|Description: |Price:1.25
+
+Category:D|Name:Orange Juice|Description: |Price:1.25
+
+Category:D|Name:Water|Description: |Price:1.25
+
+THE END

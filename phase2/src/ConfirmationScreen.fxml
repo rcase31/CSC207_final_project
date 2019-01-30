@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" maxHeight="-Infinity"
+            maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="CONFIRMATION"
+            textAlignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ConfirmationScreenController">
+
+    <VBox>
+        <HBox><padding><Insets top="10"/></padding>
+            <Label text="WARNING: THIS ACTION CANNOT BE REVERSED!" textFill="red" />
+        </HBox>
+        <HBox><padding><Insets top="10"/></padding>
+            <Label text="Please ensure that the value entered is correct." />
+        </HBox>
+        <HBox><padding><Insets top="20"/></padding>
+            <Button text="Confirm" fx:id="confirmButton" />
+        </HBox>
+    </VBox>
+
+</TitledPane>

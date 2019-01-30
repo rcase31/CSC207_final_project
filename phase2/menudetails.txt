@@ -1,0 +1,33 @@
+Name:Pepperoni|IngredientsUsed:Oil-0.2,Dough-0.8,Pizza Sauce-0.4,Cheese-0.2,Pepperoni-0.2
+
+Name:Hawaiian|IngredientsUsed:Oil-0.2,Dough-0.8,Pizza Sauce-0.4,Cheese-0.2,Pineapple-0.4,Ham-0.4
+
+Name:Margherita|IngredientsUsed:Oil-0.2,Dough-0.8,Pizza Sauce-0.7,Cheese-0.2,Tomatoes-0.4,Basil Leaves-0.1
+
+Name:Veggie|IngredientsUsed:Oil-0.2,Dough-0.8,Pizza Sauce-0.7,Cheese-0.3,Red Onions-0.6,Mushrooms-0.5,Green Peppers-0.6
+
+Name:Chicken|IngredientsUsed:Oil-0.2,Dough-0.8,Pizza Sauce-0.4,Cheese-0.2,Buffalo Chicken-0.4,Green Peppers-0.4,Red Onions-0.4
+
+Name:Cheese|IngredientsUsed:Oil-0.2,Dough-0.8,Pizza Sauce-0.4,Cheese-0.4
+
+Name:Caesar Salad|IngredientsUsed:Caesar Salad-1
+
+Name:Garlic Bread|IngredientsUsed:Garlic Bread-1
+
+Name:Potato Wedges|IngredientsUsed:Potato Wedges-1
+
+Name:Bread Sticks|IngredientsUsed:Bread Sticks-1
+
+Name:Coke|IngredientsUsed:Coke-1
+
+Name:7UP|IngredientsUsed:7UP-1
+
+Name:Dr.Pepper|IngredientsUsed:Dr.Pepper-1
+
+Name:Mountain Dew|IngredientsUsed:Mountain Dew-1
+
+Name:Orange Juice|IngredientsUsed:Orange Juice-1
+
+Name:Water|IngredientsUsed:Water-1
+
+THE END

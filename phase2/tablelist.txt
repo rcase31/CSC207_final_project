@@ -1,0 +1,11 @@
+Id:1|Capacity:5
+
+Id:2|Capacity:5
+
+Id:3|Capacity:5
+
+Id:4|Capacity:5
+
+Id:5|Capacity:10
+
+THE END

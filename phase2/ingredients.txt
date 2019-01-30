@@ -1,0 +1,47 @@
+Name:Pizza Sauce|Quantity:175|Threshold:25|Unit:L
+
+Name:Oil|Quantity:150|Threshold:25|Unit:L
+
+Name:Dough|Quantity:300|Threshold:100|Unit:kg
+
+Name:Cheese|Quantity:35|Threshold:10|Unit:kg
+
+Name:Pepperoni|Quantity:35|Threshold:10|Unit:kg
+
+Name:Pineapple|Quantity:20|Threshold:10|Unit:kg
+
+Name:Ham|Quantity:20|Threshold:10|Unit:kg
+
+Name:Tomatoes|Quantity:20|Threshold:10|Unit:kg
+
+Name:Basil Leaves|Quantity:10|Threshold:5|Unit:kg
+
+Name:Green Peppers|Quantity:20|Threshold:10|Unit:kg
+
+Name:Red Onions|Quantity:20|Threshold:10|Unit:kg
+
+Name:Mushrooms|Quantity:15|Threshold:5|Unit:kg
+
+Name:Buffalo Chicken|Quantity:25|Threshold:10|Unit:kg
+
+Name:Caesar Salad|Quantity:75|Threshold:50|Unit:packs
+
+Name:Garlic Bread|Quantity:75|Threshold:50|Unit:packs
+
+Name:Potato Wedges|Quantity:75|Threshold:50|Unit:packs
+
+Name:Bread Sticks|Quantity:75|Threshold:50|Unit:packs
+
+Name:Coke|Quantity:50|Threshold:50|Unit:cans
+
+Name:7UP|Quantity:50|Threshold:25|Unit:cans
+
+Name:Dr.Pepper|Quantity:50|Threshold:25|Unit:cans
+
+Name:Mountain Dew|Quantity:50|Threshold:25|Unit:cans
+
+Name:Orange Juice|Quantity:50|Threshold:25|Unit:cans
+
+Name:Water|Quantity:50|Threshold:25|Unit:bottles
+
+THE END

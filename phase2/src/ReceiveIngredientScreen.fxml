@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<TitledPane alignment="CENTER" animated="false" contentDisplay="CENTER" maxHeight="-Infinity"
+            maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" text="ADD MORE OF INGREDIENT"
+            textAlignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ReceiveIngredientScreenController">
+
+    <VBox>
+        <HBox><padding><Insets top="20"/></padding>
+            <Label text="Name:      "/>
+            <ComboBox fx:id="nameDropdown" prefWidth="150" />
+        </HBox>
+        <HBox><padding><Insets top="10"/></padding>
+            <Label text="Quantity:  "/>
+            <TextField fx:id="inputQuantityField" prefWidth="50"/>
+            <Label fx:id="unit" />
+        </HBox>
+        <HBox><padding><Insets top="10"/></padding>
+            <Label fx:id="confirmationMsg" />
+        </HBox>
+        <HBox><padding><Insets top="20"/></padding>
+            <Button text="Submit" onAction="#validateInput"/>
+        </HBox>
+    </VBox>
+
+</TitledPane>
